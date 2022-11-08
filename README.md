@@ -51,3 +51,23 @@ It's so easy to imagine new features for games.
 -   What if there were three trees in the forest, and you clicked on one to figure out where a mushroom is (like hide and seek from day 1?)
 -   What if some mushrooms were poison and render differently? And you could only feed them to animals who are resistant to that poison?
 -   etc etc etc
+
+
+
+#Plan
+##HTML Elements Needed (total)
+-input for adding mushrooms
+-span for tracking satisfied friends
+-friends list
+
+##State
+-array of friends (objects w ids, name, satisfaction lvl)
+-number of satisfied friends
+-current ID (to create new friends)
+
+##functions
+-display friends
+-display mushrooms
+-render friends
+-create friend element
+-take game logic when mushrooms foraged are clicked

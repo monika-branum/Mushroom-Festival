@@ -202,7 +202,8 @@ footer {
     flex-wrap: wrap-reverse;
     justify-content: flex-end;
     position: relative;
-    bottom: 200px;
+    bottom: 5px;
+    max-height: 5px;
 }
 
 .mushroom {
