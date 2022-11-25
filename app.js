@@ -42,7 +42,7 @@ addMushroomButton.addEventListener('click', () => {
 });
 
 addFriendButton.addEventListener('click', () => {
-    const name = friendInputEl.ariaValueMax;
+    const name = friendInputEl.value;
     const newFriend = {
         name: name || `Friend #${Math.floor(Math.random() * 1000)}`,
         satisfaction: 1,
