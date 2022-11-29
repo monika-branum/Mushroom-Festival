@@ -71,3 +71,5 @@ It's so easy to imagine new features for games.
 -render friends
 -create friend element
 -take game logic when mushrooms foraged are clicked
+
+deploy
