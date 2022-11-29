@@ -92,7 +92,7 @@ function displayFriends() {
 
 function displayMushrooms() {
     // clear out the mushroom div
-
+    mushroomsEl.textContent = '';
     for (let i = 0; i < mushroomCount; i++) {
         const mushroomEl = renderMushroom();
 
